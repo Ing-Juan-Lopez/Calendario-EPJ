@@ -14,5 +14,8 @@ const emojisPorTipo = {
 const eventosDelCalendario = [
     { fecha: "2026-06-02", titulo: "Cumpleaños de Victor Alfonso Romero León", tipo: "cumple" },
     { fecha: "2026-06-03", titulo: "Cumpleaños de Juan Pablo López Cuéllar", tipo: "cumple" },
-    { fecha: "2026-06-07", titulo: "Formación mensual de junio", tipo: "formacion"}
+    { fecha: "2026-06-07", titulo: "Formación mensual de junio", tipo: "formacion" },
+    { fecha: "2026-08-31", titulo: "Cumpleaños de Jonathan Gilberto Hernández Vasquez", tipo: "cumple" },
+    { fecha: "2026-10-03", titulo: "Cumpleaños del Padre Carlos Julio Beltrán Gutiérrez", tipo: "cumple" },
+    { fecha: "2026-11-21", titulo: "Cumpleaños de Cristian Camilo Herrera Herrera", tipo: "cumple" }
 ];

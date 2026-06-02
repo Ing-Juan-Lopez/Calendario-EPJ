@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario 2026</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="background-elements">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+    </div>
+
+    <div class="container">
+        <header class="main-header">
+            <h1>Calendario EPJ Villavo</h1>
+            <p class="subtitle">Junio 2026 - Diciembre 2026</p>
+        </header>
+
+        <main id="calendar-container">
+            <!-- El calendario se generará aquí con JS -->
+        </main>
+    </div>
+
+    <!-- Modal para eventos -->
+    <div id="event-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2 id="modal-date"></h2>
+            <div id="modal-events-list"></div>
+        </div>
+    </div>
+
+
+    <script src="eventos.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

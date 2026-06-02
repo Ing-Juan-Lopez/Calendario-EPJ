@@ -15,6 +15,7 @@ const eventosDelCalendario = [
     { fecha: "2026-06-02", titulo: "Cumpleaños de Victor Alfonso Romero León", tipo: "cumple" },
     { fecha: "2026-06-03", titulo: "Cumpleaños de Juan Pablo López Cuéllar", tipo: "cumple" },
     { fecha: "2026-06-07", titulo: "Formación mensual de junio", tipo: "formacion" },
+    { fecha: "2026-06-14", titulo: "Venta de lechona - Profondos RCPN", tipo: "ventas" },
     { fecha: "2026-06-28", titulo: "Visita Comité Promotor Nacional", tipo: "comite" },
     { fecha: "2026-07-25", titulo: "RCPN Yarumal", tipo: "comite" },
     { fecha: "2026-07-26", titulo: "RCPN Yarumal", tipo: "comite" },

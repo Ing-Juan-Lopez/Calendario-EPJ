@@ -67,9 +67,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Rellenar días del mes
+        const today = new Date();
         for (let day = 1; day <= daysInMonth; day++) {
             const dayCell = document.createElement('div');
             dayCell.className = 'day-cell';
+            
+            if (today.getFullYear() === year && today.getMonth() === currentMonth && today.getDate() === day) {
+                dayCell.classList.add('current-day');
+            }
             
             const dayNum = document.createElement('div');
             dayNum.className = 'day-number';

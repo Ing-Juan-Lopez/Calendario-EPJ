@@ -161,6 +161,19 @@ body {
     pointer-events: none;
 }
 
+.day-cell.current-day {
+    border: 2px solid var(--primary);
+    background: rgba(139, 92, 246, 0.2);
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.3);
+    position: relative;
+    z-index: 1;
+}
+
+.day-cell.current-day .day-number {
+    color: #a78bfa;
+    font-weight: 700;
+}
+
 .day-number {
     font-weight: 600;
     font-size: 1.25rem;

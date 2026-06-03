@@ -143,4 +143,10 @@ document.addEventListener('DOMContentLoaded', () => {
         monthSection.appendChild(grid);
         calendarContainer.appendChild(monthSection);
     }
+
+    // Auto-abrir modal si el día actual tiene eventos
+    const currentDayCell = document.querySelector('.current-day.has-events');
+    if (currentDayCell) {
+        currentDayCell.click();
+    }
 });
